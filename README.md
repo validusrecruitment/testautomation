@@ -1,14 +1,24 @@
-# ui
+# Test Automation
 1) Clone this repo.
 2) start the server:
     $ cd service
     $ docker-compose up
+	
 4) Test the service
     $ curl localhost:5000/albums
+	
+5) Run the existing tests
+	$ Open the project in IDE of your choosing
+	$ cd music-service.mocha
+	$ npm install
+	$ npm run testLocal
+	
 
-To stop service:
+6) To stop service:
     $ CTRL-C
     $ docker-compose down
+
+
 
 NOTE: the music-service has 3 endpoints and runs on port 5000:
 http://localhost:5000/albums
