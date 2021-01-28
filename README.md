@@ -51,3 +51,5 @@ GET /posts/1/comments?_sort=votes&_order=asc
 For multiple fields, use the following format:
 
 GET /posts?_sort=user,views&_order=desc,asc
+
+***** NOTE: Push your changes to your own github repo (NOT THIS ONE!) and send back the uri. *****
